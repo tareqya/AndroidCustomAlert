@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="errorMsg">#F44336</color>
+    <color name="infoMsg">#03A9F4</color>
+    <color name="successMsg">#4CAF50</color>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <Button
+       android:layout_marginTop="100dp"
+       android:layout_centerHorizontal="true"
+       android:id="@+id/btnAlertMsgInfo"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Dialog msg"
+       android:backgroundTint="#03A9F4"
+       />
+
+
+    <Button
+        android:layout_below="@+id/btnAlertMsgInfo"
+        android:layout_centerInParent="true"
+        android:id="@+id/btnAlertMsgError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dialog msg error"
+        android:backgroundTint="#F44336"
+        />
+
+    <Button
+        android:layout_below="@+id/btnAlertMsgError"
+        android:layout_centerInParent="true"
+        android:id="@+id/btnAlertMsgSuccess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dialog msg success"
+        android:backgroundTint="#4CAF50"
+        />
+
+
+    <Button
+        android:layout_below="@+id/btnAlertMsgSuccess"
+        android:id="@+id/btnAlertYesNoMsg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes No Dialog msg"
+        />
+
+</RelativeLayout>
